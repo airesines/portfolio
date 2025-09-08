@@ -62,7 +62,7 @@ header{
 }
 
 .c-start-3-span-6{
-  grid-column: 3 / span 6;
+  grid-column: 3 / span 7;
 }
 
 nav{
@@ -180,3 +180,4 @@ footer a{
     grid-column: 3 / span 6;
   }
 }
+
