@@ -168,15 +168,15 @@ footer a{
 
 
 @media only screen and (max-width: 800px)  {
-  body{
-    overflow-y: hidden;
-  }
-  
   .elements{
-    display: none;
+    row-gap: 1rem;
   }
 
-  footer{
-    display: none;
+  .large-image, .medium-image-l, .medium-image-r, .small-image-r, .small-image-m, .small-image-l{
+    grid-column: 1 / span 9;
+  }
+
+  footer p{
+    grid-column: 3 / span 6;
   }
 }
