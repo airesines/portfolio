@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "text";
-  src: url("assets/fonts/text.otf") format("opentype");
+  src: url("assets/fonts/text.ttf") format("truetype");
 }
 
 
@@ -180,3 +180,4 @@ footer a{
     cursor: default;
   }
 }
+
